@@ -39,7 +39,6 @@ public class Elections {
                             System.out.println("FRAUDE !!!!!!!!!!! with the voter id: " + votePair[0]);
                         }
                      }
-                    System.out.println(votePairs);
                     line = bufferedReader.readLine();
                 }
                 Map<String, Integer> candidatesResults = new HashMap<>();
